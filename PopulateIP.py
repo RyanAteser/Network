@@ -81,7 +81,7 @@ def send_commands_to_terminal(commands):
                 #Adjust speed 
                 time.sleep(1)
                 
-                with open(r'C:\Users\rcate\IdeaProjects\Network-\outputFortIOS.txt', 'w') as file:
+                with open(r'Network\outputFortIOS.txt', 'w') as file:
                     file.write("Success Test Check Fortigate Dashboard to See if they have Populated:")
 
             
@@ -93,7 +93,7 @@ def send_commands_to_terminal(commands):
 
 def main():
     # Open the file and read lines
-    with open(r'C:\Users\rcate\IdeaProjects\Network-\ip_address.txt', 'r') as file:
+    with open(r'Network\ip_address.txt', 'r') as file:
         for line in file:
             # Remove leading/trailing whitespaces and split if multiple IPs are on the same line
             ip_addresses = [ip.strip() for ip in line.split(",")]
