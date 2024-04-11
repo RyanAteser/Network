@@ -10,7 +10,7 @@ Systems we need to setup to get this running-
 Heres What you need to do for the Script-
     Make Sure you change The Text File that you copy all your ip addresses into. For example, In my code i have this line of code  with open
     """"""
-    (r'C:\Users\rcate\IdeaProjects\Network-\ip_address.txt', 'r') as file:
+    (r'Network-\ip_address.txt', 'r') as file:
     """"""
     A Easy way to do this is in the folder provided, you will see ip_address.txt, Right click and Copy path and paste it into the quotations.
     You may also want to do this to outputFORTIOS.txt as well.
