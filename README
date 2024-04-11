@@ -1,0 +1,23 @@
+INSTRUCTIONS:
+
+Systems we need to setup to get this running-
+    FortiGate 40f local host -
+    SecureCRT SSH - 
+    VPN - 
+
+
+
+Heres What you need to do for the Script-
+    Make Sure you change The Text File that you copy all your ip addresses into. For example, In my code i have this line of code  with open
+    """"""
+    (r'C:\Users\rcate\IdeaProjects\Network-\ip_address.txt', 'r') as file:
+    """"""
+    A Easy way to do this is in the folder provided, you will see ip_address.txt, Right click and Copy path and paste it into the quotations.
+    You may also want to do this to outputFORTIOS.txt as well.
+    Once you have that completed OPEN up all your systems and make sure they are working. OPEN up SecureCRT and 
+    above where it says File - Edit etc. Go to
+    Scripts - Run; Locate File and Run it!
+    MAKE SURE YOU POPULATE THE TEXTFILE WITH YOUR IPs
+
+    Also If you ever want to mess around and play with it and need a bunch of randomIPs. Just run the randomIP.py and it will populate the txt file for you.
+

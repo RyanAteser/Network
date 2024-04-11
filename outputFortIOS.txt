@@ -1,0 +1,6 @@
+Success:
+config firewall address
+edit "Zoom-5.178.15.145/5"
+set subnet 5.178.15.145 255.255.255.255
+next
+end
