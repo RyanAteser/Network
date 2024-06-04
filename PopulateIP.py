@@ -63,7 +63,7 @@ def generate_config_commands(ip_addresses):
     return commands
 
 def execute_commands(commands):
-    with open(r'C:\Users\rcate\IdeaProjects\Network-\outputFortIOS.txt', 'w') as file:
+    with open(r'outputFortIOS.txt', 'w') as file:
         file.write("Success:\n" + "\n".join(commands))
 
         
